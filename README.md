@@ -1,22 +1,28 @@
-Here's a list of libraries you need to install for the product app:
+## Libraries and Dependencies
 
-1. Express (web framework)
-2. MySQL2 (MySQL client for Node.js)
-3. Cors (Cross-Origin Resource Sharing middleware)
-4. Dotenv (for environment variable management)
-5. Bcrypt (for password hashing)
-6. Jsonwebtoken (for JWT authentication)
-7. Winston (for logging)
-8. Winston-daily-rotate-file (for daily log rotation)
-9. Joi (for input validation)
+Below is the list of libraries required for the **Product App**, along with the commands to install them.
 
+### Core Libraries
+The following libraries are required for the application to work properly:
 
-You can install these libraries using npm with the following command:
+1. **Express** - Web framework  
+2. **MySQL2** - MySQL client for Node.js  
+3. **Cors** - Middleware for Cross-Origin Resource Sharing  
+4. **Dotenv** - For environment variable management  
+5. **Bcrypt** - For password hashing  
+6. **Jsonwebtoken** - For JWT authentication  
+7. **Winston** - For logging  
+8. **Winston-daily-rotate-file** - For daily log rotation  
+9. **Joi** - For input validation  
 
+Install these libraries using the following command:
+```bash
+
+# Install core libraries
 npm install express mysql2 cors dotenv bcrypt jsonwebtoken winston winston-daily-rotate-file joi
 
-For TypeScript development, you'll also need to install the following type definitions:
+# Install TypeScript type definitions
 npm install -D typescript @types/express @types/cors @types/bcrypt @types/jsonwebtoken @types/winston
 
-Additionally, you might want to install `ts-node` and `nodemon` for development purposes:
+# Install development tools
 npm install -D ts-node nodemon
