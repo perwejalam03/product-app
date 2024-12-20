@@ -26,3 +26,7 @@ npm install -D typescript @types/express @types/cors @types/bcrypt @types/jsonwe
 
 # Install development tools
 npm install -D ts-node nodemon
+
+# Install node mailer to send mail
+npm install nodemailer
+npm install -D @types/nodemailer
