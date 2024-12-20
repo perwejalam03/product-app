@@ -30,3 +30,6 @@ npm install -D ts-node nodemon
 # Install node mailer to send mail
 npm install nodemailer
 npm install -D @types/nodemailer
+
+# To generate random JWT Token
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
